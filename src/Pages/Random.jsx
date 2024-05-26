@@ -66,12 +66,12 @@ function Random() {
                         backgroundColor: 'rgba(255, 255, 255, 0.7)', 
                         border: 'none', 
                         padding: '10px 20px', 
-                        fontSize: '28px',
+                        fontSize: '36px',
                         cursor: 'pointer'
                     }}
                    
                 >
-                    สุ่มเลข
+                    กดสุ่มเลข
                 </button>
                 </div>
             )}
@@ -79,7 +79,6 @@ function Random() {
                     <div>
                         <h2>กำลังสุ่มตัวเลข...</h2>
                      <div className="number-container" style={{ position: 'relative', display: 'inline-block', fontSize: '14em', fontWeight: 'bold' }}>
-                     
                       {number}
                     </div>
                     </div>
