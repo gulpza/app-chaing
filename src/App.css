@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.images {
+  transition: var(--trans1);
+  animation: motionProduct 1s infinite;
+}
+
+@keyframes motionProduct {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1rem);
+  }
+}
+
+.swal2-confirm.btn-custom {
+  background-color: #F45A02 !important;
+  font-size: 2em;
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-image {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+  height: auto;
+  display: block;
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.footer-image {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+  height: auto;
+  display: block;
+  margin-bottom: 20px; /* Adjust the bottom margin as needed */
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
