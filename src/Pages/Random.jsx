@@ -71,7 +71,7 @@ function Random() {
                     }}
                    
                 >
-                    กดสุ่มเลข
+                    สแกนลุ้นโชค
                 </button>
                 </div>
             )}
